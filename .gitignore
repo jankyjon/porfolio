@@ -1,3 +1,2 @@
-_site/
-.sass-cache/
-.jekyll-metadata
+# Exclude 05 X folder attributes
+.ds_Store
