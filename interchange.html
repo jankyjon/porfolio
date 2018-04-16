@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Jonathan Sjelin art gallery responsive portfolio 2018 web-authoring">
+    <meta name="description" content="Jonathan Sjelin's art Portfolio website">
+    <meta name="author" content="Jonathan Sjelin">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interchange</title>
+
+    <!-- /////NEED FOR ZURB - EDIT FILEPATHS///// -->
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+    <!-- /////NEED FOR ZURB - EDIT FILEPATHS///// -->
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata|Baloo+Thambi" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+
+  </head>
+  <body>
+    <main class="grid-container">
+
+      <!-- zurb responsive nav bar  -->
+      <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+          <div class="title-bar-title ">Jonathan Sjelin's Portfolio</div>
+        </div>
+
+        <nav class="top-bar" id="main-nav">
+          <div class="top-bar-left">
+            <ul class="dropdown verticle medium-horizontal menu" data-responsive-menu= "drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+              <li id="ignore" class="menu-text">Jonathan Sjelin&rsquo;s Portfolio</li>
+              <li>
+                <a class="big2" href="#">Websites</a>
+                <ul class="menu vertical">
+
+                  <li><a class="cen big2" href="#">Redesign</a></li>
+                  <li><a class="cen big2" href="#">Animation</a></li>
+                  <li><a class="cen big2" href="#">LSS</a></li>
+                </ul>
+              </li>
+              <li><a class="current" href="index.html">Home</a></li>
+              <li><a class="big2" href="about.html">About</a></li>
+              <li><a class="big2" href="gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+
+      </nav>
+
+      <header class="grid-x grid-margin-x grid-padding-x">
+        <div class="large-12 cell large-offset-0 small-offset-0">
+
+
+
+
+
+
+ <h4 id="greeting"> </h4> <h4 id="date"> </h4>
+        </div>
+      </header>
+
+
+
+
+      <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
+      <!-- //////  Order of Sizes matter  //////// -->
+<div class="cell small-10 small small-offset-1 medium-8 medium-offset-2 large-10 large-offset-1">
+<img data-interchange="[img/Sketched-Self-Portrait.jpg, small], [img/harper-project.png, medium], [img/brush.jpg, large]">
+</div>
+      </div>
+
+
+    </main>
+    <!-- ////MUST BE HERE FOR ZURB//// -->
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+    <!-- ////MUST BE HERE FOR ZURB//// -->
+
+    <script src="js/greeting.js"></script>
+    <script src="js/date.js"></script>
+  </body>
+</html>
