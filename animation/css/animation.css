@@ -1,0 +1,148 @@
+
+body {
+  background-color: rgb(211, 192, 224);
+}
+
+ p {
+text-align:left;
+font-family: 'Signika', sans-serif;
+font-size: 1.3em;
+line-height: 2.5em;
+color: #215591;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Signika', sans-serif;
+text-align: left;
+color: #215591;
+}
+
+
+
+ h5 {
+font-family: 'Signika', sans-serif;
+text-align: center;
+
+}
+
+h1 {
+font-size: 2.6em;
+color: #215591;
+
+}
+h2 {
+font-size: 1.8;
+
+}
+
+h3 {
+font-size: 1.2;
+}
+figcaption {
+  font-size: 2em;
+  text-align: center;
+font-family: 'Signika', sans-serif;
+color: #215591;
+}
+
+.title-bar-title {
+font-family: 'Signika', sans-serif;
+font-size: 1.5em;
+text-decoration-style: none;
+margin-left: 1em;
+color: rgb(250,250,250);
+}
+
+div.title-bar {
+  border-radius: 3em;
+  background: #4f82ce;
+}
+
+
+.top-bar, .top-bar ul{
+border-radius: .5em;
+/* background-color:#b4c8e0 */
+background-color: rgb(226, 213, 232);
+
+}
+.drilldown a {
+    padding: 0.7rem 1rem;
+    background: none;
+}
+
+.drilldown .is-drilldown-submenu-parent > a::after {
+right: .2rem;
+
+}
+
+
+ul li {
+list-style-type: none;
+text-decoration: none;
+display: inline;
+}
+.cen {
+text-align: center;
+
+}
+
+.big {
+  font-size: 1.1em;
+  font-family: 'Armata', sans-serif;
+  margin-top: .7em;
+  margin-left: .8em;
+  color: #225a6f;
+}
+.big2 {
+  font-size: 1.1em;
+  font-family: 'Armata', sans-serif;
+  margin-top: 0.8em;
+  color: #215591;
+}
+
+.more {
+margin-bottom: 4.6em;
+
+}
+
+.mup0 {
+  margin-top: .7.5em;
+
+}
+
+
+
+.mup1 {
+  margin-top: 2em;
+}
+
+.mup2 {
+  margin-top: 8em;
+}
+
+.menu {
+background-color: rgb(200, 185, 204);
+}
+
+#ignore {
+font-family: 'Signika', sans-serif;
+  text-decoration: none;
+  color: #215591;
+  font-size: 2.5em;
+  margin-left: 1.8em;
+
+}
+
+.current {
+
+font-size: 1.1em;
+font-family: 'Armata', sans-serif;
+margin-top: 0.8em;
+color: rgb(250,250,250);
+}
+
+a.back {
+font-size: 1em;
+font-family: 'Armata', sans-serif;
+
+}
