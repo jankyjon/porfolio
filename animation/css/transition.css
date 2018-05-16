@@ -1,0 +1,113 @@
+
+
+
+
+
+
+#transition1 {
+    width: 500px;
+    height: 300px;
+
+
+    position: relative;
+    -webkit-animation-name: t1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s ; /* Safari 4.0 - 8.0 */
+    animation-name: t1;
+    animation-duration: 15s infinite;
+
+    animation-iteration-count:infinite;
+}
+
+#transition2 {
+    width: 500px;
+    height: 300px;
+
+
+    position: relative;
+    -webkit-animation-name: t2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s ; /* Safari 4.0 - 8.0 */
+    animation-name: t2;
+    animation-duration: 20s infinite;
+
+    animation-iteration-count:infinite;
+    /* animation-delay: 15s; */
+}
+
+#transition3 {
+    width: 500px;
+    height: 300px;
+
+
+    position: relative;
+    -webkit-animation-name: t3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s ; /* Safari 4.0 - 8.0 */
+    animation-name: t3;
+    animation-duration: 20s infinite;
+
+    animation-iteration-count:infinite;
+    /* animation-delay: 15s; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes t1 {
+    0%   { left:0px; top:500px;}
+
+    100% {opacity: 0; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes t1 {
+  0%   { left:0px; top:500px;}
+
+  100% {opacity: 0; left:0px; top:0px;}
+}
+
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes t2 {
+    0%   { opacity: 0;left:0px; top:-200px;}
+    40%  {opacity: 1;}
+    60%  {opacity: 1;}
+
+    100% {opacity: 0; left:0px; top:600px;}
+}
+
+/* Standard syntax */
+@keyframes t2 {
+  0%   {opacity: 0; left:0px; top:-200px;}
+  40%  {opacity: 1;}
+  60%  {opacity: 1;}
+  100% {opacity: 0; left:0px; top:600px;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes t3 {
+    0%   { opacity: 0;left:0px; top:-200px;}
+    20%  {opacity: 1; left: 400px;}
+    40%  {opacity: 1; left: 0px;}
+    60%  {opacity: 1;left: 400px;}
+    80%  {left: 0px;}
+
+    100% {opacity: 0; left:400px; top:600px;}
+}
+
+/* Standard syntax */
+@keyframes t3 {
+  0%   { opacity: 0;left:0px; top:-200px;}
+  40%  {opacity: 1; left: 400px;}
+  60%  {opacity: 1;left: 0px;}
+
+  100% {opacity: 0; left:400px; top:600px;}
+}
