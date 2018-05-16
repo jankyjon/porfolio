@@ -1,0 +1,27 @@
+
+
+.sprite {
+  height: 100px;
+  width: 100px;
+
+        background: url('../img/sprite.png');
+         animation-play-state: paused;
+
+}
+
+.sprite:hover {
+  -webkit-animation: play .8s steps(10) infinite;
+          animation: play .8s steps(10) infinite;
+             animation-direction: alternate;
+
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1000px; }
+}

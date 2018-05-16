@@ -6,7 +6,7 @@ body {
  p {
 text-align:left;
 font-family: 'Signika', sans-serif;
-font-size: 1.3em;
+font-size: 1em;
 line-height: 2.5em;
 color: #215591;
 }
@@ -22,6 +22,7 @@ color: #215591;
  h5 {
 font-family: 'Signika', sans-serif;
 text-align: center;
+color: #215591;
 
 }
 
@@ -144,5 +145,16 @@ color: rgb(109, 79, 130);
 a.back {
 font-size: 1em;
 font-family: 'Armata', sans-serif;
+}
+
+
+
+.sprite {
+      width: 100px;
+      height: 100px;
+        background: url('img/sprite.png') left center;
+
+      -webkit-animation: play .8s steps(10) infinite;
+              animation: play .8s steps(10) infinite;
 
 }
