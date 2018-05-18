@@ -6,7 +6,7 @@
 
         background: url('../img/sprite.png');
          animation-play-state: paused;
-
+margin-left: 1em;
 }
 
 .sprite:hover {
@@ -24,4 +24,13 @@
 @keyframes play {
    from { background-position:    0px; }
      to { background-position: -1000px; }
+}
+
+h4 {
+margin-left: 2em;
+
+}
+.adjustment {
+margin-left: -2em;
+
 }

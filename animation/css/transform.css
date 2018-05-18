@@ -1,0 +1,92 @@
+
+
+
+
+
+#transform1 {
+    width:50%
+
+
+
+
+    position: relative;
+    -webkit-animation-name: t1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s ; /* Safari 4.0 - 8.0 */
+    animation-name: t1;
+    animation-duration: 15s infinite;
+
+    animation-iteration-count:infinite;
+    font-family: 'Signika', sans-serif;
+    color: rgba(233, 233, 233, 0.9);
+
+
+}
+h5 {
+  font-family: 'Signika', sans-serif;
+  font-size: 4em;
+ animation: grow 15s infinite;
+}
+#transform2 {
+    width:100%
+
+
+
+
+    position: relative;
+    -webkit-animation-name: t2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s ; /* Safari 4.0 - 8.0 */
+    animation-name: t2;
+    animation-duration: 15s infinite;
+
+    animation-iteration-count:infinite;
+
+margin-top: -220px;
+
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes t1 {
+  0%   { background-color: yellow;}
+
+  100% { left:0px; transform: skewY(22deg);}
+}
+
+/* Standard syntax */
+@keyframes t1 {
+  0%   {color:yellow; transform: matrix(-1, -1,2, 1, 0, 0);}
+
+  100% { transform: matrix(1, 0, 0, 2, -1, 1); }
+
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes t2 {
+  0% {color: navy;}
+50% { transform: rotateY(180deg)}
+100% {color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes t2 {
+  0% {color: navy;}
+50% { transform: rotateY(180deg)}
+100% {color: yellow;}
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes grow {
+  0% {color: navy;}
+50% { transform: rotateY(180deg)}
+100% {color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes grow {
+  0% {font-size: .5em;}
+5
+100% {font-size: 4em;}
+}
