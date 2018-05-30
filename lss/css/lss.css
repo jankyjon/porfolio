@@ -1,4 +1,52 @@
-
+/*
 body {
-  background-color: #d3dce6
+  background-image:
+    url(image-one.jpg),
+    url(image-two.jpg);
+  background-position:
+    top right, /* this positions the first image
+    bottom left; /* this positions the second image
+  background-repeat:
+    no-repeat; /* this applies to both images
+} */
+
+
+
+body{
+    background:  url("../img/jonathan.png") 400px 20px repeat-x ,
+    linear-gradient(to bottom, #FF715B 0px,#FF9C3A 2000px,#F9CB40 4000px,#42A6BC 6000px, #66D7D1 80000px);
+    /* background-size: 200px 100px; */
+
+
+}
+
+
+
+#stage{
+
+  height:10000px;
+  width:1500px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative;
+  overflow:hidden;
+
+background-image: url(../img/long.png);
+
+
+
+}
+
+
+#img1 {
+  height: 50px;
+  width: 100px;
+  border: 1px solid red;
+  margin-left: -50px;
+  line-height:50px;
+  text-align:center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+
 }
