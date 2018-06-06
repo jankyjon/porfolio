@@ -1,36 +1,82 @@
-var img1 = document.getElementById("img1");
-
-
-window.onscroll = function(){
-
-  console.log("guess what? your scrolling");
-
-
-  var fromTop = window.pageYOffset;
-
-
-  console.log(fromTop);
-
-
-  img1.innerHTML = fromTop + "px";
-
-  img1.style.top = fromTop * 1.1 + "px";
-
-  img1.style.border=fromTop/100 +"px solid blue";
-
-//   submarine.style.transform= "rotate("+ fromTop * 0.01 + "deg)";
+$(document).ready(function(){
+  });
 
 
 
-  if(fromTop > 5000) {
-   img1.style.transform= "rotate(0 deg)";
-    img1.style.backgroundColor="red";
-    img1.innerHTML= "what a ride!";
 
-  }
+  $(window).scroll(function() {
+
+    console.log (Math.floor($(window).scrollTop()));
+    var here = $(window).scrollTop();
+
+    here = Math.floor(here);
+   /// console.log(here);
+
+
+      $("#vert_counter").css({
+
+      }).text(""+ ($(window).scrollTop() * 0.5));
+  });
+
+
+
+
+// sticky stuff
+
+
+
+
+$(window).scroll(function() {
+
+if ($(this).scrollTop() > 900) {
+
+  $("#sticky").css({
+    "position": "fixed",
+    "top": "830px",
+    "opacity": ".5",
+    "z-index": "-1",
+
+
+  });
+
+}
+
   else {
+$("#sticky").css({
+  "position": "fixed",
+  "top": "-10px" ,
+  "opacity": "1",
 
-    img1.style.transform= "rotate("+ fromTop + "deg)";
-  }
+  "padding":"5px",
 
-};
+});
+	}
+});
+
+
+
+// parallax stuff
+
+
+
+
+$(window).scroll(function() {
+   $(".vert_parallax").css({
+       "top": ($(window).scrollTop()*1) + "px"
+   }).text("Regular:"+ $(window).scrollTop());
+});
+
+
+
+  $(window).scroll(function() {
+    $("#parallax_wrap div:nth-child(2)").css({
+        "top": ($(window).scrollTop()*0.5) + "px"
+    }).text("Slow:"+ $(window).scrollTop());
+});
+
+
+$(window).scroll(function() {
+$("#parallax_wrap div:nth-child(3)").css({
+ "top": ($(window).scrollTop()*2) + "px"
+}).text("Fast:"+ $(window).scrollTop());
+});

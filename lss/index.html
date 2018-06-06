@@ -3,15 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Jonathan Sjelin long scrolling site interactive authoring">
-    <meta name="description" content="Jonathan Sjelin's long scrolling page">
+    <meta name="description" content="Jonathan Sjelin's long scrolling page art timeline">
     <meta name="author" content="Jonathan Sjelin">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Long Scrolling Page - Jonathan Sjelin </title>
-
+    <script
+      src="https://code.jquery.com/jquery-3.0.0.min.js"
+      integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+      crossorigin="anonymous"></script>
+      <script src="js/lss.js"></script>
 
     <link rel="stylesheet" href="css/lss.css">
-    <link href="https://fonts.googleapis.com/css?family=Armata|Baloo+Thambi" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -21,16 +25,47 @@
   </head>
 
   <body>
+
+
     <main id="stage">
 
-      <div id="img1">
-submarine
+      <div class="moo">
+    <a href="about.html">About </a>
       </div>
 
+      <div class="parent">
+      <img src="img/long.png" class="zdex1" alt="a long line representing a timeline as you scroll down.">
+      <img src="img/cat.jpg" class="cat" alt="a chalk pastel drawing from jonathans year after learning art.">
+      <img src="img/red.jpg" class="red" alt="a charcoal Self Portrait of jonathan sjelin made by jonathan sjelin at the end of highschool">
+      <img src="img/goose.jpg" class="goose" alt="a guash painting of a goose near one of tahoes lakes, made by jonathan sjelin">
+      <img src="img/charc.jpg" class="charc" alt="a study of light and dark areas on objects such as a table and tea pot. Made by jonathan sjelin with charcoal on paper">
+      <img src="img/chalk.png" class="chalk" alt="a chalk pastel self portrait of Jonathan Sjelin. Made by Jonathan sjelin in 2016">
+      <img src="img/sun.jpg" class="sun" alt="a photoshopped image of a sunset double exposure of jonathan sjelin in the mountains.">
+      <img src="img/david.png" class="david" alt="an illustration of my brother David, using Coral painter">
+      <img src="img/nar.png" class="nar" alt="an illustration of cartoon animals comparing the lengths of their necks. Made by Jonathan Sjelin">
+      <img src="img/jons.png" class="jons" alt="an illustration of sillouhetts of Jonathan Sjelin, that each have a different hairstyles in his life. Made by Jonathan Sjelin">
+</div>
+
+
+
+      <article id="parallax_wrap ">
+        <img src="img/scroll.png" class="vert_parallax "></img>
+        <!-- <div class="vert_parallax">PRLX SLOW</div>
+        <div class="vert_parallax">PRLX FAST</div> -->
+      </article>
+
+<div id="vert_counter">Year</div>
+
+
+<div id="sticky">
+<h1>A timeline of Jonathan Sjelins Art</h1>
+</div>
 
 
     </main>
 
-  <script src="js/lss.js"></script>
+
+
+
   </body>
 </html>
