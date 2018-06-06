@@ -168,9 +168,8 @@ top: 600px;
 
 .about {
 
-position: absolute;
 margin-top:10px;
-
+z-index: 3;
 }
 
 .zdex1 {
